@@ -1,0 +1,24 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+  height: 30px;
+}
+.bod {
+  background-color: gray;
+}
+ul #first {
+  margin: 0;
+  padding: 6px;
+  background-color: white;
+}
+#second {
+  padding-left: 5px;
+}
+ul :hover {
+  cursor: pointer;
+}
